@@ -2,10 +2,10 @@
 
 namespace Alvarezallen99\LaravelERD\Commands;
 
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\File;
 use Alvarezallen99\LaravelERD\Diagram\RoutingType;
 use Alvarezallen99\LaravelERD\LaravelERD;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
 
 class LaravelERDCommand extends Command
 {

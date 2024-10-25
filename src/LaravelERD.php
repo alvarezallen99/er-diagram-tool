@@ -111,7 +111,7 @@ class LaravelERD
     private function getRelationships(Model $model): array
     {
         $relationships = [];
-        $model = new $model();
+        $model = new $model;
 
         foreach ((new ReflectionClass($model))->getMethods(ReflectionMethod::IS_PUBLIC) as $method) {
             if ($method->class != get_class($model)

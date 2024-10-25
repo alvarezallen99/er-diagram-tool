@@ -2,10 +2,10 @@
 
 namespace Alvarezallen99\LaravelERD;
 
-use Closure;
-use Illuminate\Database\Eloquent\Model;
 use Alvarezallen99\LaravelERD\Commands\LaravelERDCommand;
 use Alvarezallen99\LaravelERD\Diagram\Ribbon;
+use Closure;
+use Illuminate\Database\Eloquent\Model;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
